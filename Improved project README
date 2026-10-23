@@ -1,0 +1,62 @@
+ # Inventory Stock Risk Prediction
+
+A Machine Learning web application that predicts inventory stock risk to help identify potential overstock and stockout situations.
+
+## Project Overview
+
+This project uses historical inventory-related features to predict whether an item is at risk of **overstock** or **stockout**. The application provides an interactive interface built with Streamlit.
+
+## Features
+
+- Predict inventory stock risk using a trained Machine Learning model.
+- Accept inventory, demand, supplier, and seasonal inputs.
+- Display predictions through an interactive web application.
+- Support inventory planning and stock management decisions.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- Streamlit
+
+## Machine Learning Models
+
+The following classification algorithms were evaluated:
+
+| Model | Accuracy |
+|---|---:|
+| Logistic Regression | 99.4% |
+| Decision Tree | 98.6% |
+| Random Forest | 98.6% |
+
+Logistic Regression achieved the highest accuracy on the evaluated dataset.
+
+## Live Demo
+
+[Click here to open the Stock Risk Prediction app](https://stock-risk-prediction-7hnsroqueei7dfpz apih6a.streamlit.app/)
+
+## How to Run Locally
+
+1. Clone this repository.
+2. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+## Project Objective
+
+The goal is to demonstrate how Machine Learning can support inventory management by identifying stock risks and helping businesses make more informed inventory decisions.
+
+## Author
+
+Vasavi Katalipuram
